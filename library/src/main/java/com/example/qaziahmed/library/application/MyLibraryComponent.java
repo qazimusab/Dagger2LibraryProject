@@ -1,7 +1,8 @@
 package com.example.qaziahmed.library.application;
 
-import com.example.qaziahmed.library.application.modules.LibraryModule;
 import com.example.qaziahmed.library.activities.LoginActivity;
+import com.example.qaziahmed.library.activities.MainActivity;
+import com.example.qaziahmed.library.application.modules.LibraryModule;
 
 import dagger.Subcomponent;
 
@@ -11,4 +12,6 @@ import dagger.Subcomponent;
 @Subcomponent(modules = LibraryModule.class)
 public interface MyLibraryComponent {
     void inject(LoginActivity loginActivity);
+
+    void inject(MainActivity mainActivity);
 }

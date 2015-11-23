@@ -1,7 +1,7 @@
 package com.example.qaziahmed.dagger2libraryproject.application;
 
 
-import com.example.qaziahmed.dagger2libraryproject.activities.MainActivity;
+import com.example.qaziahmed.library.activities.MainActivity;
 import com.example.qaziahmed.library.application.MyLibraryComponent;
 
 import javax.inject.Singleton;
